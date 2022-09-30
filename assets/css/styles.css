@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: 'Nanum Gothic', Noto Sans KR, Roboto, sans-serif;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+* {
+    transition: all 0.3s linear;
+}
+body {
+    line-height: 1;
+    min-width: 320px;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+p {
+    word-break: keep-all;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.wrap {
+    background: url(../images/bg.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    color: #10182E;
+}
+.container {
+    padding: 30px 0 30px 30px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.class-list {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 24px;
+}
+.class-list li {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%);
+    display: inline-block;
+    border-radius: 10px;
+    min-width: 112px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.class-list li.active {
+    background: linear-gradient(180deg, #0084E3 0%, #0094FF 100%);
+    color: #fff;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+.chatbot-list {
+    overflow: auto;
+    white-space: nowrap;
+    height: 180px;
+    padding: 0 6px 12px;
+    margin-left: -6px;
+}
+.chatbot-list::-webkit-scrollbar {
+    display: none;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    height: 10px;
+}
+.chatbot-list:hover::-webkit-scrollbar {
+    display: block;
+    opacity: 1;
+    -webkit-transition: all .5s;
+
+}
+.chatbot-list .item {
+    display: inline-block;
+    width: 112px;
+    height: 158px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding: 12px 10px;
+    margin-right: 8px;
+}
+.chatbot-list .item .img {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+}
+
+.chatbot-list .item .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.chatbot-list .item b {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 800;
+}
+
+.chatbot-list .item a {
+    display: block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    background: linear-gradient(180deg, #F8DA48 0%, #FDE25E 97.05%);
+    border-radius: 10px;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
